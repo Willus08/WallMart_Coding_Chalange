@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10"
+    android:background="@color/colorPrimaryDark"
+    tools:context="posidenpalace.com.wallmart_coding_chalange.view.activities.item_list.ItemList">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rvListOfItems"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:background="@color/colorPrimary"
+        android:layout_margin="10dp">
+
+    </android.support.v7.widget.RecyclerView>
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryLight"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:weightSum="10">
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="9">
+            <EditText
+                android:id="@+id/etSearchBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/search"
+                android:inputType="textAutoCorrect" />
+        </android.support.design.widget.TextInputLayout>
+        <Button
+            android:id="@+id/btnSearcButton"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_weight="1"
+            android:onClick="Search"
+            android:background="@drawable/search"/>
+    </LinearLayout>
+
+
+</LinearLayout>
