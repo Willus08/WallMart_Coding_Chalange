@@ -1,4 +1,4 @@
-package posidenpalace.com.wallmart_coding_chalange.view.injection.item_list;
+package posidenpalace.com.wallmart_coding_chalange.injection.item_list;
 
 import dagger.Component;
 import posidenpalace.com.wallmart_coding_chalange.view.activities.item_list.ItemList;

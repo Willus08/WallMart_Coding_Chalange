@@ -24,7 +24,7 @@ import butterknife.ButterKnife;
 import posidenpalace.com.wallmart_coding_chalange.R;
 import posidenpalace.com.wallmart_coding_chalange.model.Item;
 import posidenpalace.com.wallmart_coding_chalange.view.activities.item_details.ItemDetails;
-import posidenpalace.com.wallmart_coding_chalange.view.injection.item_list.DaggerItemListComponent;
+import posidenpalace.com.wallmart_coding_chalange.injection.item_list.DaggerItemListComponent;
 
 public class ItemList extends AppCompatActivity implements ItemListContract.View {
     @Inject ItemListPresenter presenter;

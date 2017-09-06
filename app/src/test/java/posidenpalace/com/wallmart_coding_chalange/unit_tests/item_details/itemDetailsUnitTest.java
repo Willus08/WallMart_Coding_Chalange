@@ -10,19 +10,20 @@ import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.verify;
 
 public class itemDetailsUnitTest {
-    private ItemDetailsPresenter mockedPresenter = mock(ItemDetailsPresenter.class);
 
+    private ItemDetailsPresenter mockedPresenter;
     private int start;
 
     @Before
     public void setup(){
+        mockedPresenter = mock(ItemDetailsPresenter.class);
         String searched = "apple";
         start = 11;
         mockedPresenter.currentItem = searched;
         mockedPresenter.loadItems(start);
     }
     @Test// makes sure that a lazy load happens
-    public void lazyLoadList() throws Exception{
+    public void Should_Lazy_Load_List() throws Exception{
         //assertNotNull();
         verify(mockedPresenter).loadItems(start);
     }

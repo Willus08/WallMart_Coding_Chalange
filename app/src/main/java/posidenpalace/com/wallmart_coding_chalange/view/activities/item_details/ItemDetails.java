@@ -17,7 +17,7 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 import posidenpalace.com.wallmart_coding_chalange.R;
 import posidenpalace.com.wallmart_coding_chalange.model.Item;
-import posidenpalace.com.wallmart_coding_chalange.view.injection.item_details.DaggerItemDetailsComponent;
+import posidenpalace.com.wallmart_coding_chalange.injection.item_details.DaggerItemDetailsComponent;
 
 public class ItemDetails extends AppCompatActivity implements ItemDetailsContract.View{
     @Inject ItemDetailsPresenter presenter;

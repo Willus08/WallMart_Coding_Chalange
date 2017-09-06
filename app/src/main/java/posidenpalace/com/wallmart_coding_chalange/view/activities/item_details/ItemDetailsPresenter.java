@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import posidenpalace.com.wallmart_coding_chalange.model.Item;
-import posidenpalace.com.wallmart_coding_chalange.model.RetrofitHelper;
+import posidenpalace.com.wallmart_coding_chalange.data.remote.RetrofitHelper;
 import posidenpalace.com.wallmart_coding_chalange.model.WalMartItemsList;
 import retrofit2.Call;
 import retrofit2.Response;

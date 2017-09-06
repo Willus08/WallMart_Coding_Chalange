@@ -29,7 +29,7 @@ public class itemListUITest {
     }
 
     @Test // tests that the search function works
-    public void testSearch()throws Exception {
+    public void Test_Search_Function()throws Exception {
 
         onView(withId(R.id.etSearchBox))
                 .perform(typeText(searched), closeSoftKeyboard());

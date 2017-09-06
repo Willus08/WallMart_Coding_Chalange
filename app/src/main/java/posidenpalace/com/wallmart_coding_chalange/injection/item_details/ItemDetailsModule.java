@@ -1,4 +1,4 @@
-package posidenpalace.com.wallmart_coding_chalange.view.injection.item_details;
+package posidenpalace.com.wallmart_coding_chalange.injection.item_details;
 
 
 import dagger.Module;

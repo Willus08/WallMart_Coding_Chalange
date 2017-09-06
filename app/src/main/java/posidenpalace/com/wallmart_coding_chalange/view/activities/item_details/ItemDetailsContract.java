@@ -6,8 +6,8 @@ import android.content.Intent;
 import java.util.List;
 
 import posidenpalace.com.wallmart_coding_chalange.model.Item;
-import posidenpalace.com.wallmart_coding_chalange.view.activities.BasePresenter;
-import posidenpalace.com.wallmart_coding_chalange.view.activities.BaseView;
+import posidenpalace.com.wallmart_coding_chalange.BasePresenter;
+import posidenpalace.com.wallmart_coding_chalange.BaseView;
 // sets up methods for the view and its presenter
 interface ItemDetailsContract {
     interface View extends BaseView{

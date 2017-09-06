@@ -1,4 +1,4 @@
-package posidenpalace.com.wallmart_coding_chalange.view.activities;
+package posidenpalace.com.wallmart_coding_chalange;
 
 
 

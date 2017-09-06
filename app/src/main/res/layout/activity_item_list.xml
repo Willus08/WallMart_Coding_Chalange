@@ -7,7 +7,7 @@
     android:orientation="vertical"
     android:weightSum="10"
     android:background="@color/colorPrimaryDark"
-    tools:context="posidenpalace.com.wallmart_coding_chalange.view.activities.item_list.ItemList">
+    tools:context=".view.activities.item_list.ItemList">
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/rvListOfItems"

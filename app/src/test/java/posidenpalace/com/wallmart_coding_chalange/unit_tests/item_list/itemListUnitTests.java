@@ -11,19 +11,20 @@ import static org.mockito.Mockito.verify;
 
 public class itemListUnitTests {
 
-    private ItemListPresenter mockedPresenter = mock(ItemListPresenter.class);
+    private ItemListPresenter mockedPresenter;
 
     private int start;
     private String searched;
 
     @Before
     public void setup(){
+        mockedPresenter = mock(ItemListPresenter.class);
         searched = "apple";
         start = 1;
         mockedPresenter.getItems(searched,start);
     }
     @Test// makes sure that a list is made
-    public void aquireList() throws Exception{
+    public void Should_Aquire_List() throws Exception{
         //assertNotNull();
         verify(mockedPresenter).getItems(searched,start);
     }
