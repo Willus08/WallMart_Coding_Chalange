@@ -1,13 +1,13 @@
 # WallMart_Coding_Chalange
-Coding Chalange
+Coding Challenge
 
-Chalange:
+##Chalange:
 Create a new application with WalmartLabs Android Test API integrated (https://developer.walmartlabs.com/io-docs). The application
 should have two screens
 
-Approach:
+###Approach:
 
-Architecture:
+####Architecture:
 MVP
 
 Librairies Used:
@@ -20,7 +20,7 @@ Mockito (Testing)
 Glide (Image Loading and Caching)
 Dagger (Dependency Injection)
 
-Steps:
+####Steps:
 1. Create a Retrofit Helper Class To make a call to the Api to aquire a list of items based off
     of a keyword*
 2. Once the call returns it passes the created list to the Recycler View Adaptor to Fill a list
@@ -37,14 +37,14 @@ Steps:
 ** This will Happen up till 100 items are in the list at that point the list will not continue.
 
 
-Application:
+###Application:
 
-Activities:
+####Activities:
 ItemList Activity: Contains a search bar to allow the user to search for a diffrent set of items.
 ItemDetails Activity: Contains more detailed Information about the selected item and another
     Recycler View to scroll thru the list of items.
 
-Utilities:
+####Utilities:
 ItemListAdapter: RecyclerView Adaptor for the ItemListActivity
 ItemDetailesAdapter: RecyclerView Adaptor for the ItemDetailesActivity
 RetrofitHelper: Retrofit factory class and interface for network calls.
